@@ -2,10 +2,9 @@
 Python, Self-consistent gravitating system
 Catam Project 23.1
 
-needs numpy and matplotlib
-all the graphing / data analysis bits are commented out in different chunks - uncomment one and run it
+It needs numpy and matplotlib to run.
+All the graphing / data analysis bits are commented out in different chunks - uncomment one and run it, otherwise only the realisation will be created and nothing will show
 
-mathematically speaking - takes a random radius, velocity pair, compares f(e)r^2 v^2 vs a random value (Monte Carlo method), decides whether to accept or not
-numerical realisation of the disrtibution function
+Mathematically speaking, the code takes a random (radius, velocity) pair and compares f(e)r^2 v^2 vs a random value (Monte Carlo method). It then decides whether to accept it or not. This leads to a numerical realisation of the distribution function.
 
-find details at https://www.maths.cam.ac.uk/undergrad/catam/II
+To find more details go to: https://www.maths.cam.ac.uk/undergrad/catam/II
